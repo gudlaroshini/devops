@@ -6,6 +6,8 @@ pipeline {
             steps {
                 echo 'Hello World'
                 bat 'git clone https://github.com/gudlaroshini/devops'
+                bat '''mkdir C:\\ProgramData\\Jenkins\\hello.txt
+'''
             }
         }
         stage('Hello1') {
